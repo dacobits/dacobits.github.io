@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #F76E11, #FC4F4F);
+  background-attachment: fixed;
+  color: #FFF6F4;
+}
+
+nav{
+  background-color: #FF9F45;
+  padding: 1em;
+  margin:10px;
+  width:auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 60px;
+}
+
+nav a{
+  text-align: center;
+  color: #FFF6F4;
+  text-decoration: none;
+  margin: auto;
+  transition: color 0.2s ease;
+  transition: transform 0.2s ease;
+  font-family: 'Orbitron', sans-serif;
+}
+
+nav a:hover{
+  color:#FC4F4F;
+  transform: scale(1.1);
+}
+
+.hi{
+  display: flex;
+  align-items: center;
+}
+
+.hi h1{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 80px;
+  font-family: 'Kaushan Script', cursive;
+
+}
+
+.hi img{
+  width: 20%;
+  border-radius: 60px;
+  border-style:solid;
+  border-color: #FFBC80;
+  padding: 5px;
+  margin: 20px;
+  margin-left: auto;
+  justify-content:right;
+}
+
+.proyectos{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#galeria{
+  border-radius: 40px;
+  height: 500px;
+  width: 600px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#descripcion{
+  background-image: linear-gradient(to top left, #FF9F45, #FC4F4F);
+  border-radius: 40px;
+  height: 500px;
+  width: 600px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.albums{
+  border:#27374D;
+  height: 100%;
+  position: relative;
+}
+
+.portadas{
+  height: 100%;
+}
+
+.flechas{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.flechas span{
+  color: white;
+}
+
+.portadas img{
+  height: 100%;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 50px;
+}
+
+#descripcion p{
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Caveat', cursive;
+}
+
+.social img{
+  width: 100px;
+}
+
+.social{
+  width: 75%;
+  height: 200px;
+  background-image: linear-gradient(to top left, #FF9F45, #FC4F4F);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+#firma{
+  width: 200px;
+  margin: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#firma img{
+  width: 200px;
+}
